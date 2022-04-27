@@ -1,33 +1,35 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - entry point
- *
- * Return: void
+ * print_square - prints a square
+ *@size: print size
+ * Return: Always 0.
  */
 
-int main(void)
+void print_square(int size)
 {
 
-int p = 100;
 int i;
+int k;
 
-i = 1;
-while (i <= p)
+if (size > 0)
 {
-if (i % 3 == 0 && i % 5 == 0)
+for (i = 0; i < size; i++)
 {
-printf("FizzBuzz ");
+
+for (k = 0; k < size; k++)
+{
+_putchar (35);
+}
+_putchar ('\n');
+
 }
 
-else if (i % 3 == 0)
-{
-printf("Fizz ");
 }
-
-else if (i % 5 == 0)
-{
-if (i < p)
-printf("Buzz ");
 
 else
-printf("Buzz");
+{
+_putchar ('\n');
+}
+
+}
+
