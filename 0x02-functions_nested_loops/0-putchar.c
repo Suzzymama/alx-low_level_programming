@@ -1,21 +1,25 @@
 #include <stdio.h>
+#include "main.h"
+#include <unistd.h>
 
 /**
 * mian - Entry point
 *
-* Return: Always 0(Suucess)
+* Return: Always 0 (Suucess)
 */
 
 int main(void)
+
 {
-	putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
+		putchar('_');
+		putchar('p');
+		putchar('u');
+		putchar('t');
+		putchar('c');
+		putchar('h');
+		putchar('a');
+		putchar('r');
+		putchar('\n');
 
 	return (0);
 }
