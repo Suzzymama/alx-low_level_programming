@@ -31,3 +31,21 @@ return (0);
 }
 
 /*Declaring While*/
+
+while (coins[position] != '\0')
+
+{
+if (total >= coins[position])
+{
+aux = (total / coins[position]);
+change += aux;
+total -= coins[position] * aux;
+}
+
+position++;
+
+}
+
+printf("%d\n", change);
+return (0);
+}
